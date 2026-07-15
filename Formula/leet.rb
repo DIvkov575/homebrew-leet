@@ -5,26 +5,26 @@
 class Leet < Formula
   desc "Browse bundled LeetCode company problem lists from the terminal"
   homepage "https://github.com/DIvkov575/leet-cli"
-  version "0.3.1"
+  version "0.3.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/DIvkov575/leet-cli/releases/download/v0.3.1/leet-darwin-arm64"
-      sha256 "c8ec214d85c1f0fa70fde1b55e0ff86a8bb435255eeea18b74111c255bd07b17"
+      url "https://github.com/DIvkov575/leet-cli/releases/download/v0.3.2/leet-darwin-arm64"
+      sha256 "0a78de7cc588ced09d8dc7bd9bb1d682963a0d1d682b3226214b5859fce3c16f"
     else
-      url "https://github.com/DIvkov575/leet-cli/releases/download/v0.3.1/leet-darwin-x64"
-      sha256 "b4ba9f9b7a8fc2d2a1c5d8c1000086ea9316ae991126d601c70c50570932877a"
+      url "https://github.com/DIvkov575/leet-cli/releases/download/v0.3.2/leet-darwin-x64"
+      sha256 "175219d355abb53d414d220b5089b04ab289ff48c1e6a2a3615cd1ffe82b2998"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/DIvkov575/leet-cli/releases/download/v0.3.1/leet-linux-arm64"
-      sha256 "84922ceed1133fffc7126045833a611738d5c4f717e0e7f48ace2b2f52088845"
+      url "https://github.com/DIvkov575/leet-cli/releases/download/v0.3.2/leet-linux-arm64"
+      sha256 "93a32c7448a45622f8c59a115d17082955c62c955609754b4816a3cdad4d5d72"
     else
-      url "https://github.com/DIvkov575/leet-cli/releases/download/v0.3.1/leet-linux-x64"
-      sha256 "3b8e55598cdce2b97af75e9a8332ca670700d3f121ede03693223277d2fbe468"
+      url "https://github.com/DIvkov575/leet-cli/releases/download/v0.3.2/leet-linux-x64"
+      sha256 "c655f9215507d7462739dedb66325bcb11757fc4173009b1bc4939ebafbbd2d5"
     end
   end
 
